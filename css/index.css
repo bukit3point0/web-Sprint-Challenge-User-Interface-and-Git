@@ -71,6 +71,20 @@ p {
     margin: 0 auto;
 }
 
+.navigation {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.navigation p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
