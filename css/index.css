@@ -51,6 +51,11 @@ table {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color:black;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -71,18 +76,42 @@ p {
     margin: 0 auto;
 }
 
+.navigation {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto 40px;
+}
+
+.navigation p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px auto 40px;
+    /* border-bottom: 1px dashed black; */
+}
+
+.about-page {
     border-bottom: 1px dashed black;
+    margin-bottom:20px;
+    padding-bottom:20px;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed black;    
+}
+
+.text-container img {
+    padding-bottom: 1rem;
 }
 
 .middle-content {
@@ -104,12 +133,60 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+button {
+    border-radius: 7px;
+    padding: .5rem 2rem;
+    margin-top: 1rem;
+    background-color:White;
+    border: 2px solid black;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color:crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color:hotpink;
+}
+
+.box9 {
+    background-color:indigo;
+}
+
+.box10 {
+    background-color:dodgerblue;
 }
 
 .bottom-content {
@@ -120,10 +197,17 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-about {
+    margin-bottom:20px;
+    margin: 0 2% 40px;
+    padding-top: 20px;
 }
 
 footer {
